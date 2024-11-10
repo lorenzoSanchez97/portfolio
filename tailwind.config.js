@@ -6,12 +6,25 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+    colors: {
+      'white': '#D4D4D4',
+      'dark-grey': '#171717',
+      'light-grey': '#2c2c2c',
+      'blue': '#007acc',
+      'light-blue': '#61DAFB',
+    },
+    animation: {
+      'slide-in': 'slideInFromLeft 0.7s ease-out forwards',
+    },
+    keyframes: {
+      slideInFromLeft: {
+        '0%': { transform: 'translateX(-100px)', opacity: '0' },
+        '100%': { transform: 'translateX(0)', opacity: '1' },
       },
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false,
+  }
 };
