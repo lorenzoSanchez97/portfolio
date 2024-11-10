@@ -1,12 +1,15 @@
 import Image from "next/image"
 import Argentina from "@/public/images/argentina_flag.svg"
+import "./personal-information.css"
 
 export default function PersonalInformation() {
     return (
         <section className="flex flex-col text-white justify-center">
             <h1 className="font-bold text-4xl mb-[5px]">Lorenzo Sanchez</h1>
-            <h2 className="text-light-blue font-normal text-2xl mb-[12px]">Full Stack Developer</h2>
-            <div className="flex gap-x-[10px] mb-[10px]">
+            <div className="w-fit">
+                <h2 className="text-light-blue font-normal text-2xl typewriter">Full Stack Developer </h2>
+            </div>
+            <div className="flex gap-x-[10px] mb-[10px] mt-[12px]">
                 <Image src={Argentina} alt="Bandera de Argentina" />
                 <p className="mb-[12px]">Provincia de Rio Negro, Argentina</p>
             </div>
