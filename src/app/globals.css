@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-@keyframes bg-scrolling-reverse {
+@keyframes bg-shift {
     100% {
         background-position: 50px 50px;
     }
@@ -17,8 +17,8 @@
 /* Body Background Animation */
 body {
     /* Animación */
-    animation: bg-scrolling-reverse 5s linear infinite;
-    -webkit-animation: bg-scrolling-reverse 5s linear infinite;
-    -moz-animation: bg-scrolling-reverse 5s linear infinite;
-    -o-animation: bg-scrolling-reverse 5s linear infinite;
+    animation: bg-shift 5s linear infinite;
+    -webkit-animation: bg-shift 5s linear infinite;
+    -moz-animation: bg-shift 5s linear infinite;
+    -o-animation: bg-shift 5s linear infinite;
 }
