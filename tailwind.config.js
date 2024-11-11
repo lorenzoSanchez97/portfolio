@@ -14,12 +14,12 @@ module.exports = {
       'light-blue': '#61DAFB',
     },
     animation: {
-      'slide-in': 'slideInFromLeft 1.5s ease-out forwards',
+      'show-in': 'showIn 2.2s ease-out forwards',
     },
     keyframes: {
-      slideInFromLeft: {
-        '0%': { transform: 'translateX(-150px)', opacity: '0' },
-        '100%': { transform: 'translateX(0)', opacity: '1' },
+      showIn: {
+        '0%': { opacity: '0' },
+        '100%': { opacity: '1' },
       },
     },
     backgroundImage: {

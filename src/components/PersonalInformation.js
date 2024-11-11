@@ -4,7 +4,7 @@ import styles from "./PersonalInformation.module.css"
 
 export default function PersonalInformation() {
     return (
-        <section className="flex flex-col text-white justify-center">
+        <section className="flex flex-col items-center md:items-start text-white justify-center">
             <h1 className="font-bold text-4xl mb-[5px]">Lorenzo Sanchez</h1>
             <div className="w-fit">
                 <h2 className={`text-light-blue font-normal text-2xl ${styles.typewriter}`}>Full Stack Developer </h2>

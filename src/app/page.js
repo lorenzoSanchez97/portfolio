@@ -5,7 +5,7 @@ import HomeButtonsGroup from "../components/HomeButtonsGroup";
 export default function Home() {
   return (
     <main className="h-[calc(100vh-150px)]">
-      <div className="flex flex-row justify-evenly h-full">
+      <div className="flex flex-col items-center md:flex-row justify-evenly h-full xl:mx-24">
         <PersonalInformation />
         <HomeButtonsGroup />
       </div>
