@@ -1,4 +1,4 @@
-import TechItem from "./technology-item"
+import TechItem from "./TechItem"
 
 export default function TechsBar() {
   return (

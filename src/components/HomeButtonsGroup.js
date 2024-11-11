@@ -1,4 +1,4 @@
-import HomeButton from "./home-button"
+import HomeButton from "./HomeButton"
 
 export default function HomeButtonsGroup() {
     return (

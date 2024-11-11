@@ -1,6 +1,6 @@
-import PersonalInformation from "@/src/components/personal-information";
-import TechsBar from "@/src/components/techs-bar";
-import HomeButtonsGroup from "../components/home-buttons-group";
+import PersonalInformation from "@/src/components/PersonalInformation";
+import TechsBar from "@/src/components/TechsBar";
+import HomeButtonsGroup from "../components/HomeButtonsGroup";
 
 export default function Home() {
   return (

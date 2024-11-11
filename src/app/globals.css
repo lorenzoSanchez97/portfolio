@@ -14,9 +14,8 @@
     }
 }
 
-/* Body Background Animation */
 body {
-    /* Animación */
+    /* Body Background Animation */
     animation: bg-shift 5s linear infinite;
     -webkit-animation: bg-shift 5s linear infinite;
     -moz-animation: bg-shift 5s linear infinite;
