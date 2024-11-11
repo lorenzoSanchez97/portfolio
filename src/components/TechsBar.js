@@ -2,7 +2,7 @@ import TechItem from "./TechItem"
 
 export default function TechsBar() {
   return (
-    <section className="absolute bottom-[50px] mx-auto hidden md:flex left-1/2 transform -translate-x-1/2 gap-x-[20px]">
+    <section className="absolute bottom-[50px] flex flex-wrap justify-center w-full gap-[20px] px-4">
       <TechItem tech={"javascript"} />
       <TechItem tech={"html"} />
       <TechItem tech={"css"} />
