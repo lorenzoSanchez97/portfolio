@@ -7,3 +7,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+/* Body Background Animation */
+body {
+    /* Animación */
+    animation: bg-scrolling-reverse 5s linear infinite;
+    -webkit-animation: bg-scrolling-reverse 5s linear infinite;
+    -moz-animation: bg-scrolling-reverse 5s linear infinite;
+    -o-animation: bg-scrolling-reverse 5s linear infinite;
+}
