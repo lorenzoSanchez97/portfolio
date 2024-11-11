@@ -12,7 +12,7 @@ const quicksand = Quicksand({ subsets: ['latin'] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={quicksand.className}>
-      <body className="bg-dark-grey">
+      <body className="bg-dark-grey bg-radial bg-[size:50px_50px]">
         {children}
       </body>
     </html>

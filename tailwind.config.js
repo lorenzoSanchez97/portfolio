@@ -14,7 +14,7 @@ module.exports = {
       'light-blue': '#61DAFB',
     },
     animation: {
-      'slide-in': 'slideInFromLeft 0.7s ease-out forwards',
+      'slide-in': 'slideInFromLeft 1s ease-out forwards',
     },
     keyframes: {
       slideInFromLeft: {
@@ -22,6 +22,9 @@ module.exports = {
         '100%': { transform: 'translateX(0)', opacity: '1' },
       },
     },
+    backgroundImage: {
+      'radial': 'radial-gradient(theme("colors.light-grey") 1px, transparent 0)',
+    }
   },
   plugins: [],
   corePlugins: {
