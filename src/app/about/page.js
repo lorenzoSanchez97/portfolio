@@ -1,6 +1,7 @@
 import AboutMe from "@/src/components/AboutMe";
 import Panel from "@/src/components/Panel";
 import PersonalInformationWithPhoto from "@/src/components/PersonalInformationWithPhoto";
+import TechnologyStack from "@/src/components/TechnologyStack"
 
 export default function About() {
     return (
@@ -14,7 +15,9 @@ export default function About() {
                 </Panel>
 
                 {/* Panel Central */}
-                <Panel col={"col-span-6"}></Panel>
+                <Panel col={"col-span-6"}>
+                    <TechnologyStack />
+                </Panel>
 
                 {/* Panel Derecho */}
                 <Panel col={"col-span-3"}></Panel>
