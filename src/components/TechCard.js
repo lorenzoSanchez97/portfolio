@@ -1,7 +1,11 @@
+import Image from "next/image"
 import nextIcon from "@/public/icons/next-icon.svg"
 import nodeIcon from "@/public/icons/node-icon.svg"
 import reactIcon from "@/public/icons/react-icon.svg"
-import Image from "next/image"
+import tailwindIcon from "@/public/icons/tailwind-icon.svg"
+import n8nIcon from "@/public/icons/n8n-icon.svg"
+import figmaIcon from "@/public/icons/figma-icon.svg"
+import bootstrapIcon from "@/public/icons/bootstrap-icon.svg"
 
 const techs = {
     next: {
@@ -16,6 +20,22 @@ const techs = {
         name: "React",
         icon: reactIcon
     },
+    tailwind: {
+        name: "Tailwind CSS",
+        icon: tailwindIcon
+    },
+    n8n:{
+        name: "n8n",
+        icon: n8nIcon
+    },
+    figma:{
+        name: "Figma",
+        icon: figmaIcon
+    },
+    bootstrap:{
+        name: "Bootstrap",
+        icon: bootstrapIcon
+    }
 }
 
 
