@@ -11,6 +11,10 @@ import javaScriptIcon from "@/public/icons/javascript-icon.svg"
 import htmlIcon from "@/public/icons/html-icon.svg"
 import cssIcon from "@/public/icons/css-icon.svg"
 import expressIcon from "@/public/icons/express-icon.svg"
+import sequelizeIcon from "@/public/icons/sequelize-icon.svg"
+import ejsIcon from "@/public/icons/ejs-icon.svg"
+import sqlIcon from "@/public/icons/sql-icon.svg"
+import apiIcon from "@/public/icons/api-icon.svg"
 
 export const techsData = {
     next: {
@@ -64,5 +68,21 @@ export const techsData = {
     express: {
         name: "Express",
         icon: expressIcon
+    },
+    sequelize: {
+        name: "Sequelize",
+        icon: sequelizeIcon
+    },
+    ejs: {
+        name: "EJS",
+        icon: ejsIcon
+    },
+    sql: {
+        name: "SQL",
+        icon: sqlIcon
+    },
+    api: {
+        name: "API REST",
+        icon: apiIcon
     }
 }
