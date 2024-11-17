@@ -1,27 +1,10 @@
 "use client"
 
 import { useState, useEffect } from "react";
+import { techsData } from "./data/techsData";
 import TechCard from "./TechCard";
 
-const techs = [
-  "api",
-  "bootstrap",
-  "css",
-  "ejs",
-  "express",
-  "figma",
-  "github",
-  "html",
-  "javascript",
-  "mysql",
-  "n8n",
-  "next",
-  "node",
-  "react",
-  "sequelize",
-  "sql",
-  "tailwind"
-];
+const techs = Object.keys(techsData);
 
 export default function TechnologyStack() {
 
