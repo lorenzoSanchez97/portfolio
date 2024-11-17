@@ -1,3 +1,6 @@
+"use client"
+
+import { useState, useEffect } from "react";
 import TechCard from "./TechCard";
 
 const techs = [
@@ -21,11 +24,33 @@ const techs = [
 ];
 
 export default function TechnologyStack() {
+
+  const [highlightedIndex, setHighlightedIndex] = useState(null);
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      setHighlightedIndex(index); // Resalta la tarjeta actual
+      index += 1; // Incrementa el índice
+
+      // Si el índice alcanza el final del array, se detiene el intervalo
+      if (index >= techs.length) {
+        clearInterval(interval);
+        // Después de un breve tiempo, se apaga el último resaltado
+        setTimeout(() => {
+          setHighlightedIndex(null);
+        }, 100);
+      }
+    }, 100); // Duración del ciclo
+
+    return () => clearInterval(interval); // Se remueve el intervalo al desmontar
+  }, []);
+
   return (
     <section className="flex flex-col items-center text-bright-white text-2xl">
       <h1>Technology Stack</h1>
       <div className="flex flex-wrap gap-y-2 gap-x-2 w-[80%] mt-8">
-        {techs.map((tech, index) => <TechCard techName={tech} key={index} />)}
+        {techs.map((tech, index) => <TechCard techName={tech} key={index} isHighlighted={index === highlightedIndex} />)}
       </div>
     </section>
   )
