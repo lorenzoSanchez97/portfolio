@@ -1,6 +1,7 @@
 import AboutMe from "@/src/components/AboutMe";
 import Panel from "@/src/components/Panel";
 import PersonalInformationWithPhoto from "@/src/components/PersonalInformationWithPhoto";
+import Projects from "@/src/components/ProjectsGroup";
 import TechnologyStack from "@/src/components/TechnologyStack"
 
 export default function About() {
@@ -9,18 +10,19 @@ export default function About() {
             <section className="h-[98%] w-[80%] grid grid-cols-12 gap-x-2">
 
                 {/* Panel Izquierdo */}
-                <Panel col={"col-span-3"}>
+                <Panel styles={"col-span-3"}>
                     <PersonalInformationWithPhoto />
                     <AboutMe />
                 </Panel>
 
                 {/* Panel Central */}
-                <Panel col={"col-span-6"}>
+                <Panel styles={"col-span-6 flex flex-col items-center gap-y-12"}>
                     <TechnologyStack />
+                    <Projects />
                 </Panel>
 
                 {/* Panel Derecho */}
-                <Panel col={"col-span-3"}></Panel>
+                <Panel styles={"col-span-3"}></Panel>
 
             </section>
         </main>

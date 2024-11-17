@@ -1,6 +1,5 @@
 import Image from "next/image"
-import { techsData } from "./data/techsCardsData"
-
+import { techsData } from "./data/techsData"
 
 export default function TechCard({ techName, isHighlighted  }) {
     return (
