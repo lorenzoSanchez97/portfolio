@@ -12,6 +12,12 @@ export default function TechsBar() {
         <TechCard techName="n8n" />
         <TechCard techName="figma" />
         <TechCard techName="bootstrap" />
+        <TechCard techName="github" />
+        <TechCard techName="mysql" />
+        <TechCard techName="javascript" />
+        <TechCard techName="html" />
+        <TechCard techName="css" />
+        <TechCard techName="express" />
       </div>
     </section>
   )
