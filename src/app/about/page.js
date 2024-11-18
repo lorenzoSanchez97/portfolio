@@ -1,4 +1,5 @@
 import AboutMe from "@/src/components/AboutMe";
+import Education from "@/src/components/Education";
 import Panel from "@/src/components/Panel";
 import PersonalInformationWithPhoto from "@/src/components/PersonalInformationWithPhoto";
 import Projects from "@/src/components/ProjectsGroup";
@@ -22,7 +23,9 @@ export default function About() {
                 </Panel>
 
                 {/* Panel Derecho */}
-                <Panel styles={"col-span-3"}></Panel>
+                <Panel styles={"col-span-3"}>
+                    <Education />
+                </Panel>
 
             </section>
         </main>

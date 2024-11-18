@@ -17,8 +17,8 @@ export const projectsData = {
             "javascript",
         ]
     },
-    akuaipa: {
-        name: "Akuaipa",
+    akuaippa: {
+        name: "Akuaippa",
         type: "Landing Page",
         description: "Diseño y construcción del sitio web oficial de la organización indígena Akuaippa de Uribia, La Guajira.",
         image: akuaippaLogo,
