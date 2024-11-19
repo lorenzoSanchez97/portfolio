@@ -11,7 +11,7 @@ export default function Project({ name }) {
                     <h2 className="text-base">{projectsData[name].name}</h2>
                     <p className="text-white mb-2 text-xs">{projectsData[name].type}</p>
                     <p className="text-white text-xs">{projectsData[name].description}</p>
-                    <div className="flex justify-end gap-x-2 mt-[10px]">
+                    <div className="flex justify-start gap-x-2 mt-[10px]">
                         {projectsData[name].techs.map((tech, index) => {
                             return <Image src={techsData[tech].icon} alt={`${techsData[tech].name} Icon`} key={index} />
                         })}
