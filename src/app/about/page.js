@@ -1,4 +1,5 @@
 import AboutMe from "@/src/components/AboutMe";
+import DownloadCV from "@/src/components/DownloadCV";
 import Education from "@/src/components/Education";
 import Panel from "@/src/components/Panel";
 import PersonalInformationWithPhoto from "@/src/components/PersonalInformationWithPhoto";
@@ -15,7 +16,8 @@ export default function About() {
                     <PersonalInformationWithPhoto />
                     <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4"/>
                     <AboutMe />
-                    <hr className="w-[90%] mx-auto mt-8 border-t-0 border-grey-4"/>
+                    <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4"/>
+                    <DownloadCV/>
                 </Panel>
 
                 {/* Panel Central */}
