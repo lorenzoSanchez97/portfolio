@@ -5,6 +5,7 @@ import Panel from "@/src/components/Panel";
 import PersonalInformationWithPhoto from "@/src/components/PersonalInformationWithPhoto";
 import Projects from "@/src/components/ProjectsGroup";
 import TechnologyStack from "@/src/components/TechnologyStack"
+import WorkExperience from "@/src/components/WorkExperience";
 
 export default function About() {
     return (
@@ -14,21 +15,23 @@ export default function About() {
                 {/* Panel Izquierdo */}
                 <Panel styles={"col-span-3 border-solid border-grey-4 border-[1px]"}>
                     <PersonalInformationWithPhoto />
-                    <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4"/>
+                    <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4" />
                     <AboutMe />
-                    <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4"/>
-                    <DownloadCV/>
+                    <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4" />
+                    <DownloadCV />
                 </Panel>
 
                 {/* Panel Central */}
                 <Panel styles={"col-span-6 flex flex-col items-center border-solid border-grey-4 border-[1px]"}>
                     <TechnologyStack />
-                    <hr className="w-[90%] mx-auto border-t-0 border-grey-4 mt-12 mb-8"/>
+                    <hr className="w-[90%] mx-auto border-t-0 border-grey-4 mt-12 mb-8" />
                     <Projects />
                 </Panel>
 
                 {/* Panel Derecho */}
                 <Panel styles={"col-span-3 border-solid border-grey-4 border-[1px]"}>
+                    <WorkExperience />
+                    <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4" />
                     <Education />
                 </Panel>
 
