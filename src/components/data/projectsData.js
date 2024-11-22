@@ -32,7 +32,7 @@ export const projectsData = {
     'jardin-cosecha': {
         name: "Jardín Cosecha de Amor",
         type: "Sitio Web",
-        description: "Construcción del sitio web oficial de la institución",
+        description: "Construcción de sitio web (SPA) para institución de educación inicial",
         image: jardinCosechaLogo,
         techs: [
             "react",
