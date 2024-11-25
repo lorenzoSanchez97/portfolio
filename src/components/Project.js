@@ -4,7 +4,7 @@ import { projectsData } from "./data/projectsData"
 
 export default function Project({ name }) {
     return (
-        <a className="hover:bg-grey-4 hover:cursor-pointer p-2 rounded-md transition group">
+        <a href={projectsData[name].url || ""} target="_blank" className="no-underline text-bright-white hover:bg-grey-4 hover:cursor-pointer p-2 rounded-md transition group">
             <article className="flex items-center">
                 <Image src={projectsData[name].image} alt={`Logo ${projectsData[name].name}`} className="mr-4 rounded-full border-solid border-white border-[3px]" />
                 <div>
