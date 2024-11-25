@@ -40,6 +40,7 @@ export const projectsData = {
         url: "https://jardin-cosecha.pages.dev/",
         techs: [
             "html",
+            "css",
             "react",
             "tailwind",
         ]
@@ -64,16 +65,17 @@ export const projectsData = {
         ]
     },
     'voicechat': {
-        name: "Scraper & Voicechat",
+        name: "Scraper + Voice Chat",
         type: "Funcionalidad de IA",
-        description: "Sistema de Scraping para alimentar un sistema conversacional basado en Inteligencia Artificial (Realtime Voice de OpenAI)",
+        description: "Sistema de Scraping de sitios web que alimenta un sistema conversacional basado en Inteligencia Artificial (Realtime Voice de OpenAI)",
         image: iamiaLogo,
         url: "https://iamia.mx/#services",
         techs: [
             "html",
-            "css",
+            "scss",
             "react",
             "api",
+            "openai-api",
             "n8n"
         ]
     },

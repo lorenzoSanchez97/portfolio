@@ -15,6 +15,8 @@ import sequelizeIcon from "@/public/icons/sequelize-icon.svg"
 import ejsIcon from "@/public/icons/ejs-icon.svg"
 import sqlIcon from "@/public/icons/sql-icon.svg"
 import apiIcon from "@/public/icons/api-icon.svg"
+import scssIcon from "@/public/icons/scss-icon.svg"
+import openaiIcon from "@/public/icons/openai-icon.svg"
 
 export const techsData = {
     next: {
@@ -65,6 +67,10 @@ export const techsData = {
         name: "CSS",
         icon: cssIcon
     },
+    scss: {
+        name: "SCSS",
+        icon: scssIcon
+    },
     express: {
         name: "Express",
         icon: expressIcon
@@ -84,5 +90,9 @@ export const techsData = {
     api: {
         name: "API REST",
         icon: apiIcon
+    },
+    'openai-api': {
+        name: "OpenAI API",
+        icon: openaiIcon
     }
 }
