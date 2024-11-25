@@ -1,5 +1,6 @@
 import AboutMe from "@/src/components/AboutMe";
 import DownloadCV from "@/src/components/DownloadCV";
+import { ActiveTechProvider } from "@/src/contexts/techsContext";
 import Education from "@/src/components/Education";
 import Panel from "@/src/components/Panel";
 import PersonalInformationWithPhoto from "@/src/components/PersonalInformationWithPhoto";
@@ -23,9 +24,11 @@ export default function About() {
 
                 {/* Panel Central */}
                 <Panel styles={"col-span-6 flex flex-col items-center border-solid border-grey-4 border-[1px]"}>
-                    <TechnologyStack />
-                    <hr className="w-[90%] mx-auto border-t-0 border-grey-4 mt-12 mb-8" />
-                    <Projects />
+                    <ActiveTechProvider>
+                        <TechnologyStack />
+                        <hr className="w-[90%] mx-auto border-t-0 border-grey-4 mt-12 mb-8" />
+                        <Projects />
+                    </ActiveTechProvider>
                 </Panel>
 
                 {/* Panel Derecho */}
