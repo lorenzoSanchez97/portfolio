@@ -24,7 +24,7 @@ export const projectsData = {
         type: "Landing Page",
         description: "Diseño y construcción del sitio web oficial de la organización indígena Akuaippa de Uribia, La Guajira.",
         image: akuaippaLogo,
-        url: "https://akuaippa.vercel.app/",
+        url: "https://akuaippa-lorenzosanchez97s-projects.vercel.app/",
         techs: [
             "figma",
             "html",
