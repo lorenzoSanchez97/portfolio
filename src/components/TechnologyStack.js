@@ -33,7 +33,7 @@ export default function TechnologyStack() {
 
   return (
     <section className="flex flex-col items-center text-bright-white w-[95%]">
-      <h1 className="text-2xl text-light-blue ">Technology Stack</h1>
+      <h1 className="text-2xl text-light-blue ">Stack</h1>
       <div className="flex flex-wrap justify-center gap-y-2 gap-x-2 mt-8">
         {techs.map((tech, index) => <TechCard techName={tech} key={index} isHighlighted={index === highlightedIndex || tech === activeTech} />)}
       </div>

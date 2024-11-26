@@ -6,7 +6,7 @@ const data = Object.keys(worksData)
 export default function WorkExperience() {
     return (
         <section className="flex flex-col items-center text-bright-white">
-            <h1 className="text-2xl text-light-blue">Work Experience</h1>
+            <h1 className="text-2xl text-light-blue">Experiencia laboral</h1>
             <div className="flex flex-col gap-y-4 w-full mt-8">
                 {data.map((item, index) => {
                     return <WorkItem company={item} key={index}/>
