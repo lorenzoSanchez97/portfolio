@@ -14,7 +14,7 @@ export default function About() {
             <section className="h-[98%] w-[80%] grid grid-cols-12 gap-x-2">
 
                 {/* Panel Izquierdo */}
-                <Panel styles={"col-span-3 border-solid border-grey-4 border-[1px]"}>
+                <Panel styles={"col-span-3 border-solid border-grey-4 border-[1px] px-7 py-10"}>
                     <PersonalInformationWithPhoto />
                     <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4" />
                     <AboutMe />
@@ -23,16 +23,16 @@ export default function About() {
                 </Panel>
 
                 {/* Panel Central */}
-                <Panel styles={"col-span-6 flex flex-col items-center border-solid border-grey-4 border-[1px]"}>
+                <Panel styles={"col-span-6 flex flex-col items-center border-solid border-grey-4 border-[1px] px-7 pt-10"}>
                     <ActiveTechProvider>
                         <TechnologyStack />
-                        <hr className="w-[90%] mx-auto border-t-0 border-grey-4 mt-12 mb-8" />
+                        <hr className="w-[90%] mx-auto border-t-0 border-grey-4 mt-8 mb-4" />
                         <Projects />
                     </ActiveTechProvider>
                 </Panel>
 
                 {/* Panel Derecho */}
-                <Panel styles={"col-span-3 border-solid border-grey-4 border-[1px]"}>
+                <Panel styles={"col-span-3 border-solid border-grey-4 border-[1px] px-7 py-10"}>
                     <WorkExperience />
                     <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4" />
                     <Education />
