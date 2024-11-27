@@ -1,6 +1,6 @@
 import gotigerLogo from "@/public/images/gotigerai_logo.webp"
 import foxyLogo from "@/public/images/foxy_logo.webp"
-import miTechStoreLogo from "@/public/images/mitechstore-logo.svg"
+import miTechStoreLogo from "@/public/images/mitechstore-logo.webp"
 
 export const worksData = {
     gotiger: {

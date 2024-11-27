@@ -1,8 +1,8 @@
-import agrovalleLogo from "@/public/images/agrovalle-logo.svg"
-import akuaippaLogo from "@/public/images/akuaippa-logo.svg"
-import jardinCosechaLogo from "@/public/images/jardin-cosecha-logo.svg"
-import miTechStoreLogo from "@/public/images/mitechstore-logo.svg"
-import iamiaLogo from "@/public/images/iamia-logo.svg"
+import agrovalleLogo from "@/public/images/agrovalle-logo.webp"
+import akuaippaLogo from "@/public/images/akuaippa-logo.webp"
+import jardinCosechaLogo from "@/public/images/jardin-cosecha-logo.webp"
+import miTechStoreLogo from "@/public/images/mitechstore-logo.webp"
+import iamiaLogo from "@/public/images/iamia-logo.webp"
 
 export const projectsData = {
     agrovalle: {
