@@ -21,11 +21,12 @@ export default function Project({ name }) {
             href={projectsData[name].url || ""}
             target="_blank"
             className="no-underline text-bright-white hover:bg-grey-4 hover:cursor-pointer p-2 rounded-md transition group"
+            aria-label={`ir a sitio web de ${projectsData[name].name}`}
         >
             <article className="flex items-center">
                 <Image
                     src={projectsData[name].image}
-                    alt={`Logo ${projectsData[name].name}`}
+                    alt={`Logo de ${projectsData[name].name}`}
                     className="mr-4 rounded-full border-solid border-white border-[3px]"
                 />
                 <div>
