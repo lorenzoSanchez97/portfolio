@@ -8,7 +8,19 @@ export const metadata = {
   openGraph: {
     title: "Lorenzo Sanchez | Full Stack Developer",
     description: "Ven a conocer más sobre mi experiencia laboral, formación y proyectos!",
-    url: "https://portfolio-two-eta-35.vercel.app"
+    url: "https://portfolio-two-eta-35.vercel.app",
+    images: [
+      {
+        url: "/images/opengraph/opengraph-300x300.png",
+        width: 300,
+        height: 300,
+      },
+      {
+        url: "/images/opengraph/opengraph-1200x630.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
   }
 };
 
