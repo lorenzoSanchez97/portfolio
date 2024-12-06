@@ -16,19 +16,14 @@ export const metadata = {
         height: 300,
       },
       {
-        url: "/images/opengraph/opengraph-1200x630.png",
-        width: 1200,
-        height: 630,
-      },
-      {
-        url: "/images/opengraph/opengraph-1200x627.png",
-        width: 1200,
-        height: 627,
-      },
-      {
         url: "/images/opengraph/opengraph-520x270.png",
         width: 520,
         height: 270,
+      },
+      {
+        url: "/images/opengraph/opengraph-1200x630.png",
+        width: 1200,
+        height: 630,
       },
     ],
   }
