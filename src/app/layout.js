@@ -4,6 +4,12 @@ import "./globals.css";
 export const metadata = {
   title: "Portfolio",
   description: "Lorenzo Sanchez's personal portfolio, Fullstack Web Developer and AI Support.",
+  metadataBase: new URL("https://portfolio-two-eta-35.vercel.app"),
+  openGraph: {
+    title: "Lorenzo Sanchez | Full Stack Developer",
+    description: "Ven a conocer más sobre mi experiencia laboral, formación y proyectos!",
+    url: "https://portfolio-two-eta-35.vercel.app"
+  }
 };
 
 // Font Quicksand
