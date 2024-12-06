@@ -20,6 +20,11 @@ export const metadata = {
         width: 1200,
         height: 630,
       },
+      {
+        url: "/images/opengraph/opengraph-1200x627.png",
+        width: 1200,
+        height: 627,
+      },
     ],
   }
 };
