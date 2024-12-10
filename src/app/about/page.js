@@ -23,7 +23,7 @@ export default function About() {
                 </Panel>
 
                 {/* Panel Central */}
-                <Panel styles={"col-span-12 flex flex-col items-center border-solid border-grey-4 border-[1px] px-7 pt-10"}>
+                <Panel styles={"col-span-12 flex flex-col items-center border-solid border-grey-4 border-[1px] px-7 py-10"}>
                     <ActiveTechProvider>
                         <TechnologyStack />
                         <hr className="w-[90%] mx-auto border-t-0 border-grey-4 mt-8 mb-4" />
