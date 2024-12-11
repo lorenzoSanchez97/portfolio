@@ -32,10 +32,10 @@ export default function About() {
                 </Panel>
 
                 {/* Panel Derecho */}
-                <Panel styles={"col-span-12 border-solid border-grey-4 border-[1px] px-7 py-10"}>
-                    <WorkExperience />
-                    <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4" />
+                <Panel styles={"col-span-12 border-solid border-grey-4 border-[1px] px-7 py-10 flex flex-col min-[725px]:flex-row min-[725px]:justify-evenly min-[725px]:gap-x-8"}>
                     <Education />
+                    <hr className="w-[90%] min-[725px]:w-0 h-[95%] mx-auto min-[725px]:mx-0 mt-8 mb-4 border-t-0 border-grey-4" />
+                    <WorkExperience />
                 </Panel>
 
             </section>
