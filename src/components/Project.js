@@ -50,7 +50,7 @@ export default function Project({ name }) {
                     </div>
                 </article>
             </a>
-            <hr class="w-[90%] mx-auto border-t-0 border-grey-4 last:hidden min-[450px]:hidden"></hr>
+            <hr className="w-[90%] mx-auto border-t-0 border-grey-4 last:hidden min-[450px]:hidden"></hr>
         </>
     );
 }
