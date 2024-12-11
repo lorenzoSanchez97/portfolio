@@ -36,7 +36,7 @@ export default function Project({ name }) {
                         <p className="text-white text-xs group-hover:text-bright-white transition">
                             {projectsData[name].description}
                         </p>
-                        <div className="flex justify-start gap-x-2 mt-[10px]">
+                        <div className="flex flex-wrap justify-start gap-2 mt-[10px]">
                             {projectsData[name].techs.map((tech, index) => (
                                 <Image
                                     src={techsData[tech].icon}
