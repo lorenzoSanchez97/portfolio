@@ -10,8 +10,8 @@ import WorkExperience from "@/src/components/WorkExperience";
 
 export default function About() {
     return (
-        <main className="w-full py-2 mx-auto flex justify-center items-center">
-            <section className="w-[92%] xl:w-[80%] grid grid-cols-12 gap-2">
+        <main className="w-full min-h-min xl:h-screen py-2">
+            <section className="w-[92%] xl:w-[80%] mx-auto grid grid-cols-12 gap-2 min-h-min xl:h-full">
 
                 {/* Panel Izquierdo */}
                 <Panel styles={"col-span-12 md:col-span-5 md:order-1 lg:col-span-3 border-solid border-grey-4 border-[1px] px-7 py-10 xl:col-span-3"}>
