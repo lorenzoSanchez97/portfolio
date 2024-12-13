@@ -14,7 +14,7 @@ export default function About() {
             <section className="w-[92%] min-[450px]:w-[85%] md:w-[92%] lg:w-[95%] max-w-[1440px] mx-auto grid grid-cols-12 gap-2 min-h-min xl:h-full">
 
                 {/* Panel Izquierdo */}
-                <Panel styles={"col-span-12 md:col-span-5 md:order-1 lg:col-span-3 border-solid border-grey-4 border-[1px] px-7 py-10 xl:col-span-3"}>
+                <Panel styles={"col-span-12 md:col-span-5 md:order-1 lg:col-span-4 border-solid border-grey-4 border-[1px] px-7 py-10 xl:col-span-3"}>
                     <PersonalInformationWithPhoto />
                     <hr className="w-[90%] mx-auto mt-8 mb-4 border-t-0 border-grey-4" />
                     <AboutMe />
@@ -23,7 +23,7 @@ export default function About() {
                 </Panel>
 
                 {/* Panel Central */}
-                <Panel styles={"col-span-12 md:order-3 lg:col-span-9 lg:order-2 flex flex-col items-center border-solid border-grey-4 border-[1px] px-7 pt-10 py-10 xl:py-4 xl:col-span-6"}>
+                <Panel styles={"col-span-12 md:order-3 lg:col-span-8 lg:order-2 flex flex-col items-center border-solid border-grey-4 border-[1px] px-7 pt-10 py-10 lg:pb-4 xl:py-4 xl:col-span-6"}>
                     <ActiveTechProvider>
                         <TechnologyStack />
                         <hr className="w-[90%] mx-auto border-t-0 border-grey-4 mt-8 mb-4" />
