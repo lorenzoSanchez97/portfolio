@@ -4,8 +4,8 @@ import HomeButtonsGroup from "../components/HomeButtonsGroup";
 
 export default function Home() {
   return (
-    <main className="h-[calc(100%-250px)] md:h-[calc(100%-150px)]">
-      <section className="flex flex-col items-center md:flex-row justify-evenly h-full xl:mx-32">
+    <main>
+      <section className="flex flex-col items-center md:flex-row justify-evenly h-[calc(100vh-250px)] md:h-[calc(100vh-150px)] xl:mx-32">
         <PersonalInformation />
         <HomeButtonsGroup />
       </section>

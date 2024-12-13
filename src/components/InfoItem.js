@@ -13,7 +13,7 @@ export default function InfoItem({ title, company }) {
 
     return (
         <article className="flex items-center justify-start w-full">
-            <div className="w-14 h-14 relative">
+            <div className="w-14 h-14 relative mr-4 min-w-[56px]">
                 <Image
                     src={data.image}
                     alt={title ? `Logo de ${data.institution}` : `Logo de ${data.company}`}
@@ -21,7 +21,7 @@ export default function InfoItem({ title, company }) {
                     className="rounded-full border-solid border-white border-[3px]"
                 />
             </div>
-            <div className="ms-4">
+            <div>
                 <h2 className="text-sm">
                     {title ? data.institution : data.position}
                 </h2>
