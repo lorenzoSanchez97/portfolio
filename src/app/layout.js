@@ -1,4 +1,5 @@
 import { Quicksand } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 
 export const metadata = {
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={quicksand.className}>
       <body className="bg-dark-grey bg-radial bg-[size:50px_50px]">
         {children}
+        <Analytics />
       </body>
     </html>
   );
