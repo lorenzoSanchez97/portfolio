@@ -17,47 +17,44 @@ import sqlIcon from "@/public/icons/sql-icon.svg"
 import apiIcon from "@/public/icons/api-icon.svg"
 import scssIcon from "@/public/icons/scss-icon.svg"
 import openaiIcon from "@/public/icons/openai-icon.svg"
+import supabaseIcon from "@/public/icons/supabase-icon.svg"
 
 export const techsData = {
-    next: {
-        name: "Next.js",
-        icon: nextIcon
+    javascript: {
+        name: "JavaScript",
+        icon: javaScriptIcon
     },
     node: {
         name: "Node.js",
         icon: nodeIcon
     },
+    express: {
+        name: "Express",
+        icon: expressIcon
+    },
+    next: {
+        name: "Next.js",
+        icon: nextIcon
+    },
     react: {
         name: "React",
         icon: reactIcon
-    },
-    tailwind: {
-        name: "Tailwind CSS",
-        icon: tailwindIcon
-    },
-    n8n:{
-        name: "n8n",
-        icon: n8nIcon
-    },
-    figma:{
-        name: "Figma",
-        icon: figmaIcon
-    },
-    bootstrap:{
-        name: "Bootstrap",
-        icon: bootstrapIcon
-    },
-    github: {
-        name: "GitHub",
-        icon: gitHubIcon
     },
     mysql: {
         name: "MySQL",
         icon: mySqlIcon
     },
-    javascript: {
-        name: "JavaScript",
-        icon: javaScriptIcon
+    sql: {
+        name: "SQL",
+        icon: sqlIcon
+    },
+    sequelize: {
+        name: "Sequelize",
+        icon: sequelizeIcon
+    },
+    supabase: {
+        name: "Supabase",
+        icon: supabaseIcon
     },
     html: {
         name: "HTML",
@@ -71,21 +68,13 @@ export const techsData = {
         name: "SCSS",
         icon: scssIcon
     },
-    express: {
-        name: "Express",
-        icon: expressIcon
+    bootstrap: {
+        name: "Bootstrap",
+        icon: bootstrapIcon
     },
-    sequelize: {
-        name: "Sequelize",
-        icon: sequelizeIcon
-    },
-    ejs: {
-        name: "EJS",
-        icon: ejsIcon
-    },
-    sql: {
-        name: "SQL",
-        icon: sqlIcon
+    tailwind: {
+        name: "Tailwind CSS",
+        icon: tailwindIcon
     },
     api: {
         name: "API REST",
@@ -94,5 +83,21 @@ export const techsData = {
     'openai-api': {
         name: "OpenAI API",
         icon: openaiIcon
+    },
+    n8n: {
+        name: "n8n",
+        icon: n8nIcon
+    },
+    ejs: {
+        name: "EJS",
+        icon: ejsIcon
+    },
+    github: {
+        name: "GitHub",
+        icon: gitHubIcon
+    },
+    figma: {
+        name: "Figma",
+        icon: figmaIcon
     }
-}
+};
