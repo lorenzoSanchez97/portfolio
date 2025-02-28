@@ -1,5 +1,5 @@
 import Image from "next/image"
-import fotoCv from "@/public/images/fotoCv.png"
+import fotoCv from "@/public/images/fotoCv.jpg"
 import MiniButtonsGroup from "./MiniButtonsGroup"
 
 export default function PersonalInformationWithPhoto() {
